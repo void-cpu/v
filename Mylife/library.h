@@ -7,6 +7,11 @@
 
 #include "Mylife_H/MyStack.h"//实现栈的功能
 
-#include "Mylife_H/StackOthers.h"//常见问题总结
+#include "Mylife_H/StackOthers.h"//栈常见问题总结
+
+/**
+ * 更新至算法16
+ */
+#include "Mylife_H/TableOthers.h"//链表问题总结
 
 #endif //UNTITLED1_LIBRARY_H

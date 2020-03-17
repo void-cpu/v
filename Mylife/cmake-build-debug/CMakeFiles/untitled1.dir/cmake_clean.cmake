@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/Mylife_CPP/Sort.cpp.obj"
   "CMakeFiles/untitled1.dir/Mylife_CPP/SortOthers.cpp.obj"
   "CMakeFiles/untitled1.dir/Mylife_CPP/StackOthers.cpp.obj"
+  "CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj"
   "libuntitled1.a"
   "libuntitled1.pdb"
 )

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/void/CLionProjects/Mylife/Mylife_CPP/Sort.cpp" "C:/Users/void/CLionProjects/Mylife/cmake-build-debug/CMakeFiles/untitled1.dir/Mylife_CPP/Sort.cpp.obj"
   "C:/Users/void/CLionProjects/Mylife/Mylife_CPP/SortOthers.cpp" "C:/Users/void/CLionProjects/Mylife/cmake-build-debug/CMakeFiles/untitled1.dir/Mylife_CPP/SortOthers.cpp.obj"
   "C:/Users/void/CLionProjects/Mylife/Mylife_CPP/StackOthers.cpp" "C:/Users/void/CLionProjects/Mylife/cmake-build-debug/CMakeFiles/untitled1.dir/Mylife_CPP/StackOthers.cpp.obj"
+  "C:/Users/void/CLionProjects/Mylife/Mylife_CPP/TableOthers.cpp" "C:/Users/void/CLionProjects/Mylife/cmake-build-debug/CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

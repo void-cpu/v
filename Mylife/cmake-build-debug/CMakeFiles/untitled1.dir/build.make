@@ -121,13 +121,27 @@ CMakeFiles/untitled1.dir/Mylife_CPP/DogAndCat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Mylife_CPP/DogAndCat.cpp.s"
 	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\void\CLionProjects\Mylife\Mylife_CPP\DogAndCat.cpp -o CMakeFiles\untitled1.dir\Mylife_CPP\DogAndCat.cpp.s
 
+CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj: ../Mylife_CPP/TableOthers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\void\CLionProjects\Mylife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled1.dir\Mylife_CPP\TableOthers.cpp.obj -c C:\Users\void\CLionProjects\Mylife\Mylife_CPP\TableOthers.cpp
+
+CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\void\CLionProjects\Mylife\Mylife_CPP\TableOthers.cpp > CMakeFiles\untitled1.dir\Mylife_CPP\TableOthers.cpp.i
+
+CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\void\CLionProjects\Mylife\Mylife_CPP\TableOthers.cpp -o CMakeFiles\untitled1.dir\Mylife_CPP\TableOthers.cpp.s
+
 # Object files for target untitled1
 untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/Mylife_CPP/Sort.cpp.obj" \
 "CMakeFiles/untitled1.dir/Mylife_CPP/SortOthers.cpp.obj" \
 "CMakeFiles/untitled1.dir/Mylife_CPP/MyStack.cpp.obj" \
 "CMakeFiles/untitled1.dir/Mylife_CPP/StackOthers.cpp.obj" \
-"CMakeFiles/untitled1.dir/Mylife_CPP/DogAndCat.cpp.obj"
+"CMakeFiles/untitled1.dir/Mylife_CPP/DogAndCat.cpp.obj" \
+"CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -137,9 +151,10 @@ libuntitled1.a: CMakeFiles/untitled1.dir/Mylife_CPP/SortOthers.cpp.obj
 libuntitled1.a: CMakeFiles/untitled1.dir/Mylife_CPP/MyStack.cpp.obj
 libuntitled1.a: CMakeFiles/untitled1.dir/Mylife_CPP/StackOthers.cpp.obj
 libuntitled1.a: CMakeFiles/untitled1.dir/Mylife_CPP/DogAndCat.cpp.obj
+libuntitled1.a: CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj
 libuntitled1.a: CMakeFiles/untitled1.dir/build.make
 libuntitled1.a: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\void\CLionProjects\Mylife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libuntitled1.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\void\CLionProjects\Mylife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libuntitled1.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\untitled1.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled1.dir\link.txt --verbose=$(VERBOSE)
 

@@ -257,6 +257,33 @@ Mylife_CPP/StackOthers.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Mylife_CPP/StackOthers.cpp.s
 .PHONY : Mylife_CPP/StackOthers.cpp.s
 
+Mylife_CPP/TableOthers.obj: Mylife_CPP/TableOthers.cpp.obj
+
+.PHONY : Mylife_CPP/TableOthers.obj
+
+# target to build an object file
+Mylife_CPP/TableOthers.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj
+.PHONY : Mylife_CPP/TableOthers.cpp.obj
+
+Mylife_CPP/TableOthers.i: Mylife_CPP/TableOthers.cpp.i
+
+.PHONY : Mylife_CPP/TableOthers.i
+
+# target to preprocess a source file
+Mylife_CPP/TableOthers.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.i
+.PHONY : Mylife_CPP/TableOthers.cpp.i
+
+Mylife_CPP/TableOthers.s: Mylife_CPP/TableOthers.cpp.s
+
+.PHONY : Mylife_CPP/TableOthers.s
+
+# target to generate assembly for a file
+Mylife_CPP/TableOthers.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.s
+.PHONY : Mylife_CPP/TableOthers.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -281,6 +308,9 @@ help:
 	@echo ... Mylife_CPP/StackOthers.obj
 	@echo ... Mylife_CPP/StackOthers.i
 	@echo ... Mylife_CPP/StackOthers.s
+	@echo ... Mylife_CPP/TableOthers.obj
+	@echo ... Mylife_CPP/TableOthers.i
+	@echo ... Mylife_CPP/TableOthers.s
 .PHONY : help
 
 

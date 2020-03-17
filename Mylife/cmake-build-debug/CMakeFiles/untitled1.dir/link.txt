@@ -1,2 +1,2 @@
-C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe qc libuntitled1.a  CMakeFiles/untitled1.dir/Mylife_CPP/Sort.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/SortOthers.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/MyStack.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/StackOthers.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/DogAndCat.cpp.obj
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe qc libuntitled1.a  CMakeFiles/untitled1.dir/Mylife_CPP/Sort.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/SortOthers.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/MyStack.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/StackOthers.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/DogAndCat.cpp.obj CMakeFiles/untitled1.dir/Mylife_CPP/TableOthers.cpp.obj
 C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ranlib.exe libuntitled1.a
