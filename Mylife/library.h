@@ -10,7 +10,7 @@
 #include "Mylife_H/StackOthers.h"//栈常见问题总结
 
 /**
- * 更新至算法16
+ * 更新至算法17
  */
 #include "Mylife_H/TableOthers.h"//链表问题总结
 

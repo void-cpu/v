@@ -207,3 +207,98 @@ bool TableOthers::isPalindrome3(table::SingleNode *head)     {
     }
     return res;
 }
+
+void TableOthers::arrPartition(table::SingleNode *arr, int len, int pivot) {
+    int index = 0;
+    len--;
+    while(index < len)
+    {
+        while(index < len && arr[index].value <= pivot)index++;
+        swap(&arr[index],&arr[len]);
+        while(index < len && arr[len].value >= pivot)len--;
+        swap(&arr[index],&arr[len]);
+    }
+}
+
+void TableOthers::swap(table::SingleNode *a, table::SingleNode *b) {
+    int tmp=a->value;
+    a->value=b->value;
+    b->value=tmp;
+}
+
+table::SingleNode *TableOthers::listPartition1(table::SingleNode *head, int pivot) {
+    if(nullptr==head)return nullptr;
+    SingleNode*cur=head;
+    int len=0;
+    while(nullptr != cur){
+        len++;
+        cur = cur->next;
+    }
+    auto *arr = new SingleNode[len];
+    cur = head;
+    for(int i=0;i<len;i++)
+    {
+        arr[i] = *cur;
+        cur = cur->next;
+    }
+    arrPartition(arr,len,pivot); //分区
+    for(int i=1;i<len;i++)
+    {
+        arr[i-1].next = &arr[i];
+        SingleNode *ptr = head;
+        head = head->next;
+        delete ptr;
+    }
+    arr[len-1].next = nullptr;
+    delete head;
+    return arr;
+}
+
+table::SingleNode *TableOthers::listPartition2(table::SingleNode *head, int pivot) {
+    SingleNode  *sH,*sT,*eH,*eT,*bH,*bT;
+    sH=sT=eH=eT=bH=bT= nullptr;
+    while(nullptr != head)
+    {
+        SingleNode  *next = head->next;
+        head->next = nullptr;
+        if(head->value < pivot){
+            if(nullptr == sH){
+                sH = head;
+                sT = head;
+            }else{
+                sT->next = head;
+                sT = head;
+            }
+        }else if(head->value == pivot){
+            if(nullptr == eH){
+                eH = head;
+                eT = head;
+            }else{
+                eT->next = head;
+                eT = head;
+            }
+        }else{
+            if(nullptr == bH){
+                bH = head;
+                bT = head;
+            }else{
+                bT->next = head;
+                bT = head;
+            }
+        }
+        head = next;
+    }
+    if(nullptr != sT)    //小段链接相等段
+    {
+        sT->next = eH;
+        eT = (nullptr == eT ? sT : eT);
+    }else if(nullptr != eT)    //中段链接大段
+        eT->next = bH;
+    return nullptr != sH ? sH : nullptr != eH ? eH : bH;
+}
+
+
+
+
+
+
